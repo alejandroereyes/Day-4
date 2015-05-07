@@ -1,5 +1,64 @@
-// Colors
+// Colors & backgrounds
+$logo-color: #797F84;
 $plan-5-color: #519251;
 $plan-25-color: #2C4985;
 $plan-45-color: black;
 $descrip-text-color: #445359;
+$header-background: "src/background.jpg";
+
+$font: sans-serif;
+
+// Initialize
+a {
+	font-family: $font;
+	color: grey;
+}
+
+
+// Styling
+
+nav {
+	height: 44px;
+	background-color: white;
+	display: inline;
+
+	a {
+		text-decoration: none;
+	}
+
+	.make-standout {
+		font-size: 20px;
+		color: $logo-color;
+	}
+
+	.dif-color {
+		color: black;
+	}
+}
+
+header {
+	height: 200px;
+	background-image: url($header-background);
+	background-size: cover;
+
+	div {
+		margin: 0 auto;
+
+		h1 {
+			color: white;
+			font-family: $font;
+			font-weight: normal;
+			text-align: center;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

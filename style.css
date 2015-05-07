@@ -1,0 +1,32 @@
+a {
+  font-family: sans-serif;
+  color: grey; }
+
+nav {
+  height: 44px;
+  background-color: white;
+  display: inline; }
+
+nav a {
+  text-decoration: none; }
+
+nav .make-standout {
+  font-size: 20px;
+  color: #797F84; }
+
+nav .dif-color {
+  color: black; }
+
+header {
+  height: 200px;
+  background-image: url("src/background.jpg");
+  background-size: cover; }
+
+header div {
+  margin: 0 auto; }
+
+header div h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: center; }
