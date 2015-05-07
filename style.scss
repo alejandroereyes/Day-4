@@ -42,18 +42,32 @@ nav {
 
 header {
 	height: 200px;
+	box-sizing: border-box;
 	background-image: url($header-background);
+	padding: 6% 25%;
+	line-height: 200px;
+	vertical-align: middle;
 
-	div {
-		margin: 0 auto;
 
-		h1 {
+	h1 {
 			color: white;
 			font-family: $font;
 			font-weight: normal;
 			text-align: center;
+			vertical-align: middle;
+			line-height: normal;
 		}
-	}
+	// div {
+	
+
+	// 	h1 {
+	// 		color: white;
+	// 		font-family: $font;
+	// 		font-weight: normal;
+	// 		text-align: center;
+	// 		vertical-align: middle;
+	// 	}
+	// }
 }
 
 
@@ -106,7 +120,25 @@ header {
 			background-color: $high-plan-color;
 		}
 
-		
+		.options {
+			height: 270px;
+			margin: 0;
+			padding: 0;
+
+			div {
+				height: 45px;
+				background-color: #F7F7F7;
+				color: $descrip-text-color;
+				text-align: center;
+				font-family: $font;
+				padding: 0;
+				line-height: 45px;
+				vertical-align: middle;
+				border: 1px solid #E8E8E8;
+			}
+		}
+
+
 	}
 }
 
