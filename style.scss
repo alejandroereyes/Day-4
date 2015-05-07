@@ -59,17 +59,28 @@ header {
 	height: 1824px;
 	background-color: white;
 	padding: 10px;
-	border: 2px solid black;
+	// border: 2px solid black;
 
 	div {
 		height: 574px;
 		background-color: gray;
 		margin: 34px 0px;
 	}
-
-
 }
 
+
+.info {
+	height: 1120px;
+	padding: 54px 20px 20px;
+
+	div {
+		height: 277px;
+		background-color: $descrip-text-color;
+		margin: 2px; 
+
+	}
+
+}
 
 
 
