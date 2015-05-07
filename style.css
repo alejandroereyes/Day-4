@@ -11,7 +11,7 @@ nav a {
   text-decoration: none; }
 
 nav .make-standout {
-  font-size: 20px;
+  font-size: 18px;
   color: #797F84; }
 
 nav .dif-color {
@@ -19,8 +19,7 @@ nav .dif-color {
 
 header {
   height: 200px;
-  background-image: url("src/background.jpg");
-  background-size: cover; }
+  background-image: url("src/background.jpg"); }
 
 header div {
   margin: 0 auto; }
@@ -36,10 +35,37 @@ header div h1 {
   background-color: white;
   padding: 10px; }
 
-.plans div {
+.plans .plan {
   height: 574px;
   background-color: gray;
   margin: 34px 0px; }
+
+.plans .plan .deal {
+  height: 220px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: green;
+  padding: 38px 34%; }
+
+.plans .plan .deal span {
+  color: white;
+  font-family: sans-serif; }
+
+.plans .plan .deal .cost {
+  font-size: 90px; }
+
+.plans .plan .deal .time-unit {
+  font-size: 18px; }
+
+.plans .plan .low {
+  background-color: #519251;
+  padding: 35px 38%; }
+
+.plans .plan .mid {
+  background-color: #2C4985; }
+
+.plans .plan .high {
+  background-color: black; }
 
 .info {
   height: 1120px;

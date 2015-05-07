@@ -4,6 +4,9 @@ $plan-5-color: #519251;
 $plan-25-color: #2C4985;
 $plan-45-color: black;
 $descrip-text-color: #445359;
+$low-plan-color: #519251;
+$mid-plan-color: #2C4985;
+$high-plan-color: black;
 $header-background: "src/background.jpg";
 
 $font: sans-serif;
@@ -27,7 +30,7 @@ nav {
 	}
 
 	.make-standout {
-		font-size: 20px;
+		font-size: 18px;
 		color: $logo-color;
 	}
 
@@ -40,7 +43,6 @@ nav {
 header {
 	height: 200px;
 	background-image: url($header-background);
-	background-size: cover;
 
 	div {
 		margin: 0 auto;
@@ -61,12 +63,53 @@ header {
 	padding: 10px;
 	// border: 2px solid black;
 
-	div {
+	.plan {
 		height: 574px;
 		background-color: gray;
 		margin: 34px 0px;
+		
+		.deal {
+			height: 220px;
+			box-sizing: border-box;
+			text-align: center;
+			background-color: green;
+			padding: 38px 34%;
+
+			span {
+				color: white;
+				font-family: $font;
+			}
+
+			.client {
+
+			}
+
+			.cost {
+				font-size: 90px;
+			}
+
+			.time-unit {
+				font-size: 18px;
+			}
+		}
+
+		.low {
+			background-color: $low-plan-color;
+			padding: 35px 38%;
+		}
+
+		.mid {
+			background-color: $mid-plan-color;
+		}
+
+		.high {
+			background-color: $high-plan-color;
+		}
+
+		
 	}
 }
+
 
 
 .info {
