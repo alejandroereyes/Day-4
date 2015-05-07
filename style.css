@@ -30,3 +30,14 @@ header div h1 {
   font-family: sans-serif;
   font-weight: normal;
   text-align: center; }
+
+.plans {
+  height: 1824px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black; }
+
+.plans div {
+  height: 574px;
+  background-color: gray;
+  margin: 34px 0px; }

@@ -36,6 +36,7 @@ nav {
 	}
 }
 
+
 header {
 	height: 200px;
 	background-image: url($header-background);
@@ -54,6 +55,20 @@ header {
 }
 
 
+.plans {
+	height: 1824px;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid black;
+
+	div {
+		height: 574px;
+		background-color: gray;
+		margin: 34px 0px;
+	}
+
+
+}
 
 
 
