@@ -77,11 +77,25 @@ header {
 		height: 277px;
 		background-color: $descrip-text-color;
 		margin: 2px; 
-
 	}
-
 }
 
+
+footer {
+	height: 98px;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+
+	p {
+		color: grey;
+		font-family: $font;
+
+		a {
+			color: white;
+		}
+	}
+}
 
 
 
