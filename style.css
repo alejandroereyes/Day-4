@@ -56,6 +56,9 @@ header h1 {
   color: white;
   font-family: sans-serif; }
 
+.plans .plan .deal .client {
+  letter-spacing: 5px; }
+
 .plans .plan .deal .cost {
   font-size: 100px; }
 
