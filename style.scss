@@ -1,3 +1,5 @@
+// Breakpoint 1
+
 // Colors & backgrounds
 $logo-color: #797F84;
 $plan-5-color: #519251;
@@ -81,29 +83,45 @@ header {
 			box-sizing: border-box;
 			text-align: center;
 			background-color: green;
-			padding: 38px 34%;
+			
 
 			span {
 				color: white;
 				font-family: $font;
 			}
 
-			.client {
-				letter-spacing: 5px;
+			.client-box {
+				height: 8%;
+				padding-top: 5%;
+
+				.client {
+					letter-spacing: 5px;
+				}
 			}
 
-			.cost {
-				font-size: 100px;
+			.cost-box {
+				height: 40%;
+
+				.cost {
+					font-size: 100px;
+					font-weight: lighter;
+				}
 			}
 
-			.time-unit {
-				font-size: 18px;
+
+			.time-box {
+				height: 20%;
+				padding: 4%;
+
+				.time-unit {
+					font-size: 18px;
+				}
 			}
 		}
 
 		.low {
 			background-color: $low-plan-color;
-			padding: 35px 34%;
+			
 
 			.time-unit{
 				color: $low-plan-time-unit-color;
@@ -227,7 +245,6 @@ footer {
 				color: white;
 			}
 		}
-	
 }
 
 
