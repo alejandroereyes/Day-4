@@ -1,4 +1,4 @@
-// Breakpoint 1
+// Breakpoint 4
 
 // Colors & backgrounds
 $logo-color: #797F84;
@@ -15,7 +15,13 @@ $mid-plan-time-unit-color: #94A2C1;
 $high-plan-time-unit-color: #8C8C8C;
 $header-background: "src/background.jpg";
 
+// Page font
 $font: sans-serif;
+
+// Meda Break Points
+$BreakPoint2: 479px;
+$BreakPoint3: 767px;
+$BreakPoint4: 979px;
 
 // Initialize
 a {
@@ -185,7 +191,8 @@ header {
 
 
 .info {
-	height: 780px;
+	box-sizing: border-box;
+	height: 810px;
 	padding: 54px 20px 20px;
 	margin-top: 57px;
 	margin-bottom: 15px;
@@ -196,6 +203,9 @@ header {
 		margin: 2px; 
 		font-family: $font;
 		padding-left: 5px;
+		display: flex;
+		flex-direction: column;
+
 
 		h3 {
 			font-family: $font;
@@ -233,7 +243,7 @@ footer {
 }
 
 // BreakPoint 2
-@media (min-width: 279px) {
+@media (min-width: $BreakPoint2) {
 
 	header {
 		height: 400px;
@@ -244,7 +254,7 @@ footer {
 	}
 
 	// BreakPoint 3
-	@media (min-width: 767px) {
+	@media (min-width: $BreakPoint3) {
 
 		.plans {
 			height: 650px;
@@ -288,6 +298,7 @@ footer {
 				display: inline-block;
 				padding: 0 50px;
 				margin-bottom: 10px;
+				vertical-align: top;
 			}
 		}
 
@@ -295,20 +306,28 @@ footer {
 			height: 48px;
 		}
 
-		@media (min-width: 979) {
+		// BreakPoint 4
+		@media (min-width: $BreakPoint4) {
 
-			.plans {
+			.content {
+				width: $BreakPoint4;
+				margin: 0 auto;
 
-				.plan {
-					width: 339px;
+				.plans {
+
+					.plan {
+						width: 310px;
+					}
 				}
-			}
 
-			.info {
+				.info {
+					height: 480px;
+					padding: 28px 0 0 0;
 
-				.info-section {
-					
-
+					.info-section {
+						height: 200px;
+						margin-top: 0;
+					}
 				}
 			}
 		}

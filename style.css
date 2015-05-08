@@ -127,7 +127,8 @@ header h1 {
   text-decoration: none; }
 
 .info {
-  height: 780px;
+  box-sizing: border-box;
+  height: 810px;
   padding: 54px 20px 20px;
   margin-top: 57px;
   margin-bottom: 15px; }
@@ -137,7 +138,9 @@ header h1 {
   background-color: white;
   margin: 2px;
   font-family: sans-serif;
-  padding-left: 5px; }
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column; }
 
 .info .info-section h3 {
   font-family: sans-serif;
@@ -166,13 +169,13 @@ footer p {
 footer p a {
   color: white; }
 
-@media (min-width: 279px) {
+@media (min-width: 479px) {
   header {
     height: 400px; }
   header h1 {
     font-size: 47px; } }
 
-@media (min-width: 279px) and (min-width: 767px) {
+@media (min-width: 479px) and (min-width: 767px) {
   .plans {
     height: 650px; }
   .plans .plan {
@@ -199,10 +202,20 @@ footer p a {
     max-width: 48%;
     display: inline-block;
     padding: 0 50px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    vertical-align: top; }
   footer {
     height: 48px; } }
 
-@media (min-width: 279px) and (min-width: 767px) and (min-width: 979) {
-  .plans .plan {
-    width: 339px; } }
+@media (min-width: 479px) and (min-width: 767px) and (min-width: 979px) {
+  .content {
+    width: 979px;
+    margin: 0 auto; }
+  .content .plans .plan {
+    width: 310px; }
+  .content .info {
+    height: 480px;
+    padding: 28px 0 0 0; }
+  .content .info .info-section {
+    height: 200px;
+    margin-top: 0; } }
