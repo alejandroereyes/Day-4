@@ -137,7 +137,8 @@ header h1 {
 .info {
   height: 760px;
   padding: 54px 20px 20px;
-  margin-top: 57px; }
+  margin-top: 57px;
+  margin-bottom: 15px; }
 
 .info .info-section {
   height: 187px;
@@ -146,16 +147,13 @@ header h1 {
   font-family: sans-serif;
   padding-left: 5px; }
 
-.info .info-section .info-tag {
-  height: 37px;
-  font-size: 20px;
-  letter-spacing: 3px;
-  padding-top: 40px; }
+.info .info-section h3 {
+  font-family: sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px; }
 
-.info .info-section .info-description {
-  height: 200px;
+.info .info-section p {
   color: #445359;
-  padding-top: 0px;
   line-height: 1.5em; }
 
 footer {
@@ -202,12 +200,12 @@ footer p a {
   .info {
     height: 470px;
     padding: 0;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 0; }
   .info .info-section {
-    height: 115px;
+    height: 220px;
     box-sizing: border-box;
     max-width: 48%;
     display: inline-block;
-    padding: 0 10px; }
-  .info .info-section .info-description {
-    height: 150px; } }
+    padding: 0 10px;
+    margin-bottom: 10px; } }
