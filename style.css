@@ -145,13 +145,17 @@ header h1 {
   padding-top: 0px; }
 
 footer {
-  height: 98px;
+  height: 68px;
   background-color: black;
-  text-align: center; }
+  text-align: center;
+  line-height: 68px;
+  padding: 10px 5% 20px; }
 
 footer p {
   color: grey;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  display: inline-block;
+  line-height: 25px; }
 
 footer p a {
   color: white; }

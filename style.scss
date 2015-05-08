@@ -223,21 +223,33 @@ header {
 
 
 footer {
-	height: 98px;
+	height: 68px;
 	background-color: black;
 	text-align: center;
+	line-height: 68px;
+	padding: 10px 5% 20px;
 
 
 
-	p {
-		color: grey;
-		font-family: $font;
+	// .end-mes {
+	// 	height: 98px;
+	// 	margin: 0;
+	// 	text-align: center;
+	// 	line-height: 98px;
+
+		p {
+			color: grey;
+			font-family: $font;
+			display: inline-block;
+			line-height: 25px;
 
 
-		a {
-			color: white;
+
+			a {
+				color: white;
+			}
 		}
-	}
+	// }
 }
 
 
