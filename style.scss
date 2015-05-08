@@ -7,6 +7,7 @@ $descrip-text-color: #445359;
 $low-plan-color: #519251;
 $mid-plan-color: #2C4985;
 $high-plan-color: black;
+$plans-border-color: #E8E8E8;
 $header-background: "src/background.jpg";
 
 $font: sans-serif;
@@ -78,9 +79,10 @@ header {
 	// border: 2px solid black;
 
 	.plan {
-		height: 574px;
-		background-color: gray;
+		height: 590px;
+		background-color: white;
 		margin: 34px 0px;
+		border: 1px solid $plans-border-color;
 		
 		.deal {
 			height: 220px;
@@ -134,11 +136,40 @@ header {
 				padding: 0;
 				line-height: 45px;
 				vertical-align: middle;
-				border: 1px solid #E8E8E8;
+				border: 1px solid $plans-border-color;
 			}
 		}
 
+		.choose {
+			height: 90px;
+			box-sizing: border-box;
+			border: 1px solid $plans-border-color;
+			margin-top: 10px ; 
+			padding-top: 25px;
 
+			
+			a {
+				text-decoration: none;
+			}
+
+
+			.choose-btn {
+				height: 36px;
+				width: 95px;
+				border-radius: 28px;
+				border: 2px solid $plans-border-color;
+				font-family: $font;
+				font-size: 15px;
+				font-weight: bold;
+				text-decoration: none;
+				color: black;
+				text-align: center;
+				line-height: 36px;
+				margin: 0 auto;
+				text-decoration: none;
+
+			}
+		}
 	}
 }
 

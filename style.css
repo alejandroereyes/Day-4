@@ -39,9 +39,10 @@ header h1 {
   padding: 10px; }
 
 .plans .plan {
-  height: 574px;
-  background-color: gray;
-  margin: 34px 0px; }
+  height: 590px;
+  background-color: white;
+  margin: 34px 0px;
+  border: 1px solid #E8E8E8; }
 
 .plans .plan .deal {
   height: 220px;
@@ -85,6 +86,31 @@ header h1 {
   line-height: 45px;
   vertical-align: middle;
   border: 1px solid #E8E8E8; }
+
+.plans .plan .choose {
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid #E8E8E8;
+  margin-top: 10px;
+  padding-top: 25px; }
+
+.plans .plan .choose a {
+  text-decoration: none; }
+
+.plans .plan .choose .choose-btn {
+  height: 36px;
+  width: 95px;
+  border-radius: 28px;
+  border: 2px solid #E8E8E8;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  line-height: 36px;
+  margin: 0 auto;
+  text-decoration: none; }
 
 .info {
   height: 1120px;
