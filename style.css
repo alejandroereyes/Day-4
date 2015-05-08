@@ -3,12 +3,13 @@ a {
   color: grey; }
 
 nav {
-  height: 44px;
+  height: 24px;
   background-color: white;
-  display: inline; }
+  padding: 5px 0 8px 10px; }
 
 nav a {
-  text-decoration: none; }
+  text-decoration: none;
+  margin-right: 25px; }
 
 nav .make-standout {
   font-size: 18px;
