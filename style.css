@@ -57,20 +57,29 @@ header h1 {
   font-family: sans-serif; }
 
 .plans .plan .deal .cost {
-  font-size: 90px; }
+  font-size: 100px; }
 
 .plans .plan .deal .time-unit {
   font-size: 18px; }
 
 .plans .plan .low {
   background-color: #519251;
-  padding: 35px 38%; }
+  padding: 35px 34%; }
+
+.plans .plan .low .time-unit {
+  color: #A9C9A9; }
 
 .plans .plan .mid {
   background-color: #2C4985; }
 
+.plans .plan .mid .time-unit {
+  color: #94A2C1; }
+
 .plans .plan .high {
   background-color: black; }
+
+.plans .plan .high .time-unit {
+  color: #8C8C8C; }
 
 .plans .plan .options {
   height: 270px;

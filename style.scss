@@ -102,7 +102,7 @@ header {
 			}
 
 			.cost {
-				font-size: 90px;
+				font-size: 100px;
 			}
 
 			.time-unit {
@@ -112,15 +112,27 @@ header {
 
 		.low {
 			background-color: $low-plan-color;
-			padding: 35px 38%;
+			padding: 35px 34%;
+
+			.time-unit{
+				color: #A9C9A9;
+			}
 		}
 
 		.mid {
 			background-color: $mid-plan-color;
+
+			.time-unit{
+				color: #94A2C1;
+			}
 		}
 
 		.high {
 			background-color: $high-plan-color;
+
+			.time-unit{
+				color: #8C8C8C;
+			}
 		}
 
 		.options {
