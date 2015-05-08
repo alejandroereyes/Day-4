@@ -269,16 +269,21 @@ footer {
 				max-width: 33%;
 				display: inline-block;
 
-				.client-box {
+				.deal {
 
-				}
+					.client-box {
+						height: 10%;
+						padding: 15% 0 0 0;
+					}
 
-				.cost-box {
+					.cost-box {
+						height: 30%;
+					}
 
-				}
-
-				.time-box {
-
+					.time-box {
+						height: 30%;
+						padding: 25% 0 0 0;
+					}
 				}
 			}
 		}
@@ -301,6 +306,7 @@ footer {
 
 				.info-description {
 					height: 150px;
+
 				}
 				
 			}
