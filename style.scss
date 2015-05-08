@@ -24,7 +24,7 @@ a {
 }
 
 
-// Styling
+// Styling for Mobile
 
 nav {
 	height: 24px;
@@ -247,6 +247,18 @@ footer {
 		}
 }
 
+// BreakPoint 2
+@media (min-width: 279px) {
+
+	header {
+		height: 400px;
+
+		h1 {
+			font-size: 47px;
+		}
+	}
+
+}
 
 
 
