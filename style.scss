@@ -8,6 +8,9 @@ $low-plan-color: #519251;
 $mid-plan-color: #2C4985;
 $high-plan-color: black;
 $plans-border-color: #E8E8E8;
+$low-plan-time-unit-color: #A9C9A9;
+$mid-plan-time-unit-color: #94A2C1;
+$high-plan-time-unit-color: #8C8C8C;
 $header-background: "src/background.jpg";
 
 $font: sans-serif;
@@ -115,15 +118,16 @@ header {
 			padding: 35px 34%;
 
 			.time-unit{
-				color: #A9C9A9;
+				color: $low-plan-time-unit-color;
 			}
 		}
 
 		.mid {
 			background-color: $mid-plan-color;
+			 
 
 			.time-unit{
-				color: #94A2C1;
+				color: $mid-plan-time-unit-color;
 			}
 		}
 
@@ -131,7 +135,7 @@ header {
 			background-color: $high-plan-color;
 
 			.time-unit{
-				color: #8C8C8C;
+				color: $high-plan-time-unit-color;
 			}
 		}
 
