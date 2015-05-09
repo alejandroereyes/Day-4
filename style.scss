@@ -80,7 +80,7 @@ header {
 	.plan {
 		height: 590px;
 		background-color: white;
-		margin: 34px 0px;
+		margin: 34px 0;
 		
 		.deal {
 			height: 220px;
@@ -192,20 +192,18 @@ header {
 
 .info {
 	box-sizing: border-box;
-	height: 810px;
-	padding: 54px 20px 20px;
+	height: 900px;
 	margin-top: 57px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 
 	.info-section {
-		height: 187px; 
+		height: 210px; 
 		background-color: white;
-		margin: 2px; 
+		margin: 8px 2px 2px 2px; 
 		font-family: $font;
 		padding-left: 5px;
 		display: flex;
 		flex-direction: column;
-
 
 		h3 {
 			font-family: $font;
@@ -222,11 +220,10 @@ header {
 
 
 footer {
-	height: 68px;
+	height: 98px;
 	background-color: black;
 	text-align: center;
 	line-height: 68px;
-	padding: 10px 10% 20px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -258,13 +255,13 @@ footer {
 
 		.plans {
 			height: 650px;
+			text-align: center;
 
 			.plan {
 				box-sizing: border-box;
 				width: 33%;
 				display: inline-block;
 				padding: 0 5px 0 5px;
-
 
 				.deal {
 
@@ -289,7 +286,8 @@ footer {
 			height: 570px;
 			padding: 0;
 			margin-top: 0;
-			margin-bottom: 0;
+			margin-bottom: 5px; 
+			text-align: center;
 
 			.info-section{
 				height: 260px;
@@ -299,11 +297,12 @@ footer {
 				padding: 0 50px;
 				margin-bottom: 10px;
 				vertical-align: top;
+				text-align: left;
 			}
 		}
 
 		footer {
-			height: 48px;
+			height: 75px;
 		}
 
 		// BreakPoint 4
